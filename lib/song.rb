@@ -10,7 +10,7 @@ class Song
     @artist = artist 
     @genre = genre 
     @@count += 1
-    @@artists << artist 
+    @@artists << artist #add artist to array
     @@genres << genre 
   end 
   
@@ -19,10 +19,13 @@ class Song
   end
   
   def self.genres
-    @@genres.uniq!
+    @@genres.uniq! 
   end
 
   def self.artists
     @@artists.uniq!
   end
+  
+  def self.genre_count
+    
 end 
