@@ -31,5 +31,4 @@ class Song
     @genres.each {|genre| self[genre] += 1}
   end
   genre_count
-end
 end 
