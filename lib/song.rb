@@ -26,7 +26,8 @@ class Song
     @@artists.uniq! #return unique artists without repeat
   end
   
-  def self.genre_count(genre)
+  def self.genre_count(genre_count)
+    genre_count = {}
     @genre.initialize 
   end
 end 
