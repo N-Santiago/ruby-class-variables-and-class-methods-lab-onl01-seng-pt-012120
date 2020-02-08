@@ -18,6 +18,6 @@ class Song
   end
   
   def self.artists(artist)
-    artist.uniq! 
+    @@artist.uniq! 
   end 
 end 
