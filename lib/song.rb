@@ -26,7 +26,7 @@ class Song
     @@artists.uniq! #return unique artists without repeat
   end
   
-  def self.genre_count
+  def self.genre_count(genre_count)
     genre_count = {}
     @genre.each {|genre| self[@genre]=genre_count}
   end
